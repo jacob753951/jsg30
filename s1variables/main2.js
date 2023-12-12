@@ -15,10 +15,20 @@
 
 
 
-const añadedosnumero = (parametro1, parametro2) =>{
-    let resultado = parametro1 + parametro2
-    return resultado
-}
-
-let suma = añadedosnumero(5,6)
-console.log (suma)
+let dog = {
+    name: "Milaneso",
+    breed: "Border Collie",
+    size: "Big",
+    color: "Black",
+    age: 3,
+    bark: () => {
+      console.log("WOOF WOOOOF!!!");
+    },
+  };
+  dog.bark()
+  dog.location="mexico"
+  dog.eat=()=>{
+    console.log("ñamñam")
+  }
+  console.log(dog)
+  dog.eat()
