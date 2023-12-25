@@ -1,12 +1,3 @@
-
-// 1.ok - Crear una función que me entregue la suma de dos números
-
-// 2,ok. Crear una función que evalúe si un número es par o impar
-
-// 3,ok. Crear una función que escriba en consola letra por letra de un nombre
-
-// 4 en proceso , crear una funcion que reciba un string , cuente la catidad de caracteres que tienen y si tiene menos de 10 caracteres indicar que el string es orte , si tiene 10 cao mas indicar que el string es largo 
-
 /*
     1.- Crear una función que reciba un string, una posición inicial, una posición final, y nos devuelva un nuevo string formado por los caracteres que se encuentren en las posiciones indicadas
     Input = "Regresamos a las sombras", 3, 8
@@ -21,6 +12,5 @@
     input => "Merengue", "e"
     output => la letra "e" se usa 3 veces en la palabra "Merengue"
 */
-
 
 

@@ -1,10 +1,10 @@
 // 1.- Crear una función que me entregue la suma de dos números
 
-const addTwoNumbers = (numero1, numero2) =>{
-    let result = numero1+numero2
-    return result
-
+const addTwoNumbers =( number1, number2)=>{
+  let result = number1+  number2
+  return result
 }
+
 let suma= addTwoNumbers(5,9)
 console.log (suma)
 
@@ -25,7 +25,19 @@ const oddAmdEven2 =(number) =>{
 oddAmdEven(9)
 oddAmdEven2(10)
 
+/* crear una funcion  que reciba un string cuentae la cantidad de caracteres e indicar si tienes menor a 10 caracteres  que es corto y si tiene mayor a 10 caracteres es largo 
+*/ 
+const longerString = (text) => {
+  let myText = text.length;
+  return myText > 10 ? `este string es largo y tiene ${myText} caracteres` : `este string es corto y tiene ${myText} carateres `
+}
+
+let respuesta = longerString("la felicidad la encuentras con los Flapys")
+console.log(respuesta)
+
 //3,. Crear una función que escriba en consola letra por letra de un nombre
+
+
 
 const myName=(name)=>{
     let result = name.split("")
@@ -86,10 +98,12 @@ const subString = (originalString) => {
     input => "d"
     output => "La mdjor forma dd prdddcir dl futuro ds crdándolo"*/
 
-const nweFrase = (originalFrase) => {
-    return originalFrase.replce("e,"d")
-};
-console.log(nweFrase ("La mejor forma de predecir el futuro es creandolo"))
+    const newFrase = (originalFrase) => {
+      return originalFrase.replace("e", "d");
+  };
+  
+  console.log(newFrase("La mejor forma de predecir el futuro es creándolo"));
+  
 
    /* 3.- Crear una función que reciba un string, un caracter cualquiera, y me indique la cantidad de veces que ese caracter se encuentra en el string
     input => "Merengue", "e"
@@ -123,3 +137,20 @@ const findCharOcurrences = (originalString, char) => {
   
   let firstWord = createNewWord("enésimo", 4);
   console.log(firstWord);
+
+
+  /*
+    1.- Necesito poder obtener una nueva lista de usuarios basada en su género*/
+
+const filterGender = (gender) => users.filter( user => user.gender === gender)
+
+    let males = filterGender('male')
+    const females = filterGender('female')
+
+    console.log ('Estos son los masculinos', males)
+    console.log ('Estas son las feminas', females)
+
+
+
+   /* 2.- Necesito una nueva lista con las nacionalidades de cada persona pero sin repetir
+    */
